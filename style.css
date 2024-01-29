@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-width: 500px;
+    max-width: 1000px;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+    margin: 0 auto;
+}
+header {
+    background-image: url('./images/southern-farm.jpeg');
+    height: 300px;
+    }
+
+    .cover-title {
+        width: 400px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 50px;
+        color: black;
+    }
+
+    nav.container {
+    margin-left: 20px;
+    }
+
+    nav li:hover {
+        background-color: blue;
+        color: white;
+    }
+
+    nav li {
+        display: inline-block;
+        width: 100px;
+        margin: 0px 20px;
+        text-align: center;
+        border: 1px solid black;
+        padding: 10px;
+        position: relative;
+        top: 190px;
+        background-color: azure;
+        opacity: 0.75;
+    }
+
+    main {
+        background-color: azure;
+    }
+
+    .prouducts h2 {
+        padding-top: 10px;
+       margin: 0 auto;
+        text-align: center;
+        color: black;
+        background-color: azure;
+        border-bottom: 2px solid black;
+        width: 400px
+    }
+    .prouducts p {
+        padding: 10px;
+        text-align: center;
+        font-size: 18px;
+        border-bottom: 2px solid black;
+
+    }
+
+    .prouducts li {
+        font-size: 18px;
+        padding: 10px;
+        margin-left: 20px;
+
+    }
+
+    
