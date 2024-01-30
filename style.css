@@ -7,7 +7,6 @@ body {
     max-width: 1000px;
     height: 100%;
     margin: 0;
-    padding: 10px;
     margin: 0 auto;
 }
 header {
@@ -49,7 +48,7 @@ header {
         background-color: azure;
     }
 
-    .prouducts h2 {
+    #prouducts h2 {
         padding-top: 10px;
        margin: 0 auto;
         text-align: center;
@@ -58,22 +57,26 @@ header {
         border-bottom: 2px solid black;
         width: 400px
     }
-    .prouducts p {
+    #prouducts p {
         padding: 10px;
         text-align: center;
-        font-size: 18px;
-        border-bottom: 2px solid black;
+        font-size: 24px;
 
     }
 
-    .prouducts li {
+    .prouducts-container {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    #prouducts li {
         font-size: 18px;
         padding: 10px;
         margin-left: 20px;
 
     }
 
-    .services h2 {
+    #services h2 {
         padding-top: 10px;
        margin: 0 auto;
         text-align: center;
@@ -83,10 +86,63 @@ header {
         width: 400px
     }
 
-    .services li {
+    .services-container {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    #services li {
+
         font-size: 18px;
         padding: 10px;
         margin-left: 20px;
 
+    }
+
+    #blog h2 {
+        padding-top: 10px;
+       margin: 0 auto;
+        text-align: center;
+        color: black;
+        background-color: azure;
+        border-bottom: 2px solid black;
+        width: 400px;
+        margin-bottom: 10px;
+        
+        
+    }
+
+
+    #blog, p {
+        text-align: center;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    #about-us h2 {
+        padding-top: 10px;
+       margin: 0 auto;
+        text-align: center;
+        color: black;
+        background-color: azure;
+        border-bottom: 2px solid black;
+        width: 400px
+    }
+
+    .date {
+        font-weight: bold;
+        background-color: red;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    figure img {
+        display: inline-block;
     }
     
