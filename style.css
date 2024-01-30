@@ -26,12 +26,14 @@ header {
     margin-left: 20px;
     }
 
-    nav li:hover {
+    nav button:hover {
         background-color: blue;
         color: white;
+        cursor: pointer;
+        transition: 0.15s;
     }
 
-    nav li {
+    nav button {
         display: inline-block;
         width: 100px;
         margin: 0px 20px;
@@ -42,6 +44,7 @@ header {
         top: 190px;
         background-color: azure;
         opacity: 0.75;
+        
     }
 
     main {
